@@ -33,3 +33,4 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 vga=current rd.systemd.show_status=
 
 /etc/systemd/logind.conf ==> HandlePowerKey=ignore
 
+https://michlstechblog.info/blog/debian-shutdown-when-pressing-power-button/
