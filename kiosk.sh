@@ -40,3 +40,11 @@ BUG HUNTING AND FIX
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 https://shallowsky.com/blog/linux/prevent-sleep-systemd.html
 https://askubuntu.com/questions/1127464/hdmi-disconnected-after-long-suspend
+-----------------------------------------------------------------------------
+Disabling the hibernation at /etc/systemd/sleep.conf seems to work for now.
+
+
+#AllowHibernation=no
+#AllowSuspendThenHibernate=no
+#AllowHybridSleep=no
+------------------------------------------------------------------------------
