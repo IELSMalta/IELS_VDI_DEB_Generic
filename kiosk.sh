@@ -35,5 +35,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 vga=current rd.systemd.show_status=
 
 https://michlstechblog.info/blog/debian-shutdown-when-pressing-power-button/
 
+BUG HUNTING AND FIX
+
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 https://shallowsky.com/blog/linux/prevent-sleep-systemd.html
+https://askubuntu.com/questions/1127464/hdmi-disconnected-after-long-suspend
